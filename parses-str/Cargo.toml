@@ -1,0 +1,9 @@
+[package]
+name = "parses-str"
+version = "0.1.0"
+authors = ["Daniel Wagner-Hall <dawagner@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+proc-macro2 = { version = "=1.0.19", features = ["span-locations"] }
+syn = { version = "=1.0.38", features = ["full"] }
